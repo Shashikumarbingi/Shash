@@ -152,8 +152,8 @@
       const maxX = window.innerWidth - noBtn.offsetWidth - padding;
       const maxY = window.innerHeight - noBtn.offsetHeight - padding;
 
-      noBtn.style.left = Math.random() * maxX + "px";
-      noBtn.style.top = Math.random() * maxY + "px";
+      noBtn.style.left = Math.random() * range*2 - range) - noBtn.offsetwidth / 2;
+      noBtn.style.top = Math.random() * range*2 - range) - noBtn.offsetwidth / 2;
     }
 
     noBtn.addEventListener("mouseenter", moveButtonFast);
