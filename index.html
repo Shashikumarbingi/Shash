@@ -156,10 +156,9 @@
       const y = centerY + Math.random() * range*2 - range) - noBtn.offsetwidth / 2;
     }
 
-    noBtn.addEventListener("mouseenter", moveButtonFast);
-    noBtn.addEventListener("mousemove", moveButtonFast);
-    noBtn.addEventListener("touchstart", moveButtonFast);
-    noBtn.addEventListener("touchmove", moveButtonFast);
+    noBtn.style.position = 'absolute';
+    noBtn.style.left = x + 'px';
+    noBtn.style.top = y + 'px';
   </script>
 </body>
 </html>
